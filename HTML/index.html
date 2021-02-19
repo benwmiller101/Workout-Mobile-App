@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/colors.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+</head>
+<body>
+    <ion-app>
+    <ion-header>
+        <ion-toolbar color = "orange">
+            <ion-title style ="color:white" >W O R K O U T S</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list lines ="none" class = "ion-no-margin">
+            <ion-list  lines = "none">
+                <ion-item  color = "light-grey" class = "workouts">
+                    <ion-avatar slot = "start"><img src = "../Icons/weights.png"></ion-avatar>
+                    <ion-item color = "light-grey">
+                        <ion-label position = "stacked" class = "workoutTitle"><h2>Chest & Triceps</h2></ion-label>
+                        <ion-label position = "stacked" class = "workoutSubTitle"><h3>6 Exercies   1hr 30mins</h3></ion-label>
+                    </ion-item>
+                </ion-item>
+                <ion-item  color = "light-grey" class = "workouts">
+                    <ion-avatar slot = "start"><img src = "../Icons/cardio.png"></ion-avatar>
+                    <ion-item color = "light-grey">
+                        <ion-label position = "stacked" class = "workoutTitle"><h2>Cardio</h2></ion-label>
+                        <ion-label position = "stacked" class = "workoutSubTitle"><h3>4 Exercies   1hr</h3></ion-label>
+                    </ion-item>
+                </ion-item>
+                <ion-item  color = "light-grey" class = "workouts">
+                    <ion-avatar class = "avatar" slot = "start"><img src = "../Icons/hightIntensity.png"></ion-avatar>
+                    <ion-item color = "light-grey">
+                        <ion-label position = "stacked" class = "workoutTitle"><h2>Bench Press</h2></ion-label>
+                        <ion-label position = "stacked" class = "workoutSubTitle"><h3>6 Exercies   30mins</h3></ion-label>
+                    </ion-item>
+                </ion-item>
+            </ion-list>
+        </ion-list>
+    </ion-content>
+
+    
+        <ion-footer>
+            <ion-grid>
+                <ion-row class = "ion-align-items-centre">
+                    <ion-button href="workouts.html" color ="orange" shape="round"><h4 style ="color:white">Create Workout</h4></ion-button>
+                </ion-row>
+            </ion-grid>
+        </ion-footer>
+        
+    <script src="../JS/app.js"></script>
+</ion-app>
+</body>
+
+</html>

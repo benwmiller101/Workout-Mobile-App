@@ -1,0 +1,29 @@
+.exercies{
+    border-color: #6D6D6D;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.addExercise{
+    border-color: #FF5E00;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.exerTitle{
+    color: #6D6D6D;
+}
+
+.exerSubTitle{
+    color: gray;
+}
+
+.button{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

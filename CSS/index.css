@@ -1,0 +1,20 @@
+.workouts{
+    background-color:#EEEEEE ;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.workoutTitle{
+    color: #6D6D6D;
+}
+
+.workoutSubTitle{
+    color: gray;
+
+}
+.button{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

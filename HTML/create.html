@@ -1,0 +1,47 @@
+<!----------------------------------------->
+<!----------------------------------------->
+<!----------------API TEST----------------->
+<!-----------NOT PART OF DESIGN------------>
+<!----------------------------------------->
+<!----------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+        <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    </head>
+    <body>
+        <ion-app>
+        <ion-header>
+            <ion-toolbar color = "primary">
+                <ion-title >C R E A T E</ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content fullscreen>
+            <ion-list lines ="fill" class = "ion-no-margin">
+                <ion-list-header lines="full">
+                    <ion-label position="floating">
+                        Create your workout
+                    </ion-label>
+                </ion-list-header>
+                <ion-item>
+                    <ion-label>Name of workout</ion-label>
+                    <ion-input id="workoutName"></ion-input>
+
+                </ion-item>
+                <ion-item>
+                    <ion-button expand ="block" id="btn-add">Add Exercise</ion-button>
+                </ion-item>
+            </ion-list>
+            <ion-button id="btn-create">Create</ion-button>
+        </ion-content>
+        </ion-app>
+        <script src="../JS/app.js"></script>
+    </body>
+</html>
